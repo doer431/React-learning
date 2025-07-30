@@ -33,5 +33,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   // anotherElement
   // reactElement
   // myApp()
-  <MyApp/>
+  // <MyApp/>
+  <App/>
 );
