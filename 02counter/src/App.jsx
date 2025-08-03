@@ -32,6 +32,8 @@ let [count , setCount] = useState(15)
     setCount((prevCount) => prevCount + 1);
     setCount((prevCount) => prevCount + 1);
     setCount((prevCount) => prevCount + 1);
+    // Using (prevCount => prevCount + 1) ensures each setCount sees the latest state,
+// especially during batching. Direct setCount(count + 1) uses stale value.
 
     }
   const removeValue = () =>{
