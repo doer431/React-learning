@@ -23,7 +23,16 @@ let [count , setCount] = useState(15)
       alert("20 se uppar nahi jaye ga......");
       return
     }
-    setCount(count + 1);
+    // setCount(count + 1);
+    // setCount(count + 1);
+    // setCount(count + 1);
+    // setCount(count + 1);
+    setCount((prevCount) => prevCount + 1);
+    setCount((prevCount) => prevCount + 1);
+    setCount((prevCount) => prevCount + 1);
+    setCount((prevCount) => prevCount + 1);
+    setCount((prevCount) => prevCount + 1);
+
     }
   const removeValue = () =>{
     if( count == 0){
