@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <h2 className='text-2xl font-bold bg-green-400 p-4 rounded-xl mb-3' > Tailwind css</h2>
-      <Card  userName="mohammed shuraim"  />
+      <Card  userName="mohammed shuraim"  btnName="read more"/>
     </>
   )
 }
