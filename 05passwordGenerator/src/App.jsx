@@ -153,7 +153,7 @@ function App() {
           <input
             type="range"
             min={6}
-            max={16}
+            max={100}
             value={length}
             onChange={(e) => setLength(Number(e.target.value))}
             className="w-full accent-indigo-600"
