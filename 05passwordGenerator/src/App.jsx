@@ -113,7 +113,7 @@ function App() {
       pass += str.charAt(char);
     }
     setPassword(pass);
-  }, [length, numberAllowed, charAllowed]);
+  }, [length, numberAllowed, charAllowed, setPassword]);
 
   // Copy to clipboard
   const copyToClipboard = () => {
